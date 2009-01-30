@@ -1,0 +1,15 @@
+
+1.  Diary of commands for recreating via script
+2.  Separate directory structures in the data area for
+inplane, flat, and volume.
+3.  Separate directories for roi and other associated data
+4.  Structures, structures, structures
+5.  Sub-directories for mrLoadRet commands/scripts
+6.  Maintain multiple representations (separate?) for the inplane
+and other data representation formats
+7.  Multiple rois, labeled, within a single session.
+8.  Simultaneous view of multiple planes in the inplane format?
+
+
+
+9.  Integration of mrVol for volume viewing.

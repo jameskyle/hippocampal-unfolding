@@ -1,0 +1,13 @@
+INC = -I/usr/local/matlab/extern/include
+LIB = -L/usr/local/lib
+CMEX = /usr/local/matlab/bin/cmex
+CFLAGS = -c
+CC = gcc
+
+all:  distanceMatrix.mex4
+
+distanceMatrix.mex4: distanceMatrix.c
+	$(CC) $(CFLAGS) $(INC) distanceMatrix.c
+	$(CMEX) distanceMatrix.o /usr/lib/libm.a
+	mv distanceMatrix.mex4 ../..
+ 

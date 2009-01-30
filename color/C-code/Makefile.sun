@@ -1,0 +1,21 @@
+#
+INC = -I/usr/local/matlab/extern/include -I/home/cap/include
+LIB = -L/usr/local/lib
+CMEX = /usr/local/matlab/bin/cmex
+
+all: rgb2ind.mex4
+
+rgb2ind.mex4: rgb2ind.c
+	gcc -c $(INC) $(LIB)  rgb2ind.c
+	$(CMEX) rgb2ind.o /usr/local/lib/libcap.a
+
+
+
+
+
+
+
+
+
+
+

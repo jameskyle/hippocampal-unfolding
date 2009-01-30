@@ -1,0 +1,148 @@
+UNFOLDING PROCEDURE
+
+Unfolding Selected Gray Matter
+To unfold a section of gray matter, the volume anatomy file and the gray matter
+file (created in mrGray) containing the region of interest must exist.
+
+
+1.  Begin by making sure that the file locations satisfy the following convention:
+	- The volume anatomy file (vAnatomy.dat) and one of the unfolding
+	  parameters file (UnfoldParams.mat) are contained in the anatomy directory:
+		/anatomyDir/vAnatomy.dat
+		/anatomyDir/UnfoldParams.mat
+
+	- The gray matter file (Rgray2.dat) is in a subdirectory of the anatomy
+	  directory corresponding to the hemisphere the data represents:
+		/anatomyDir/right/Rgray2.dat
+
+	- Inside of the hemisphere subdirectory, create another subdirectory to save
+	  the unfolded data to:
+		1,anatomyDir/right> mkdir unfold
+
+
+2.  Run mrUnfold
+	- First, make sure your Matlab path includes the directory (you can add it
+	  to your startup.m path):
+		/usr/local/matlab/5.0/toolbox/stanford/mri/mrUnfold/
+
+	- Run mrVolInitPath to set up the paths and then run mrVol (it does not
+	  need to be run in any particular directory):
+		>> mrUnfoldPath
+		>> mrUnfold
+
+
+3.  Load data
+	- Once the view control and display windows in mrUnfold are running, load the
+	  volume anatomy by typing the volume anatomy directory and filename into
+	  the corresponding spaces in the main display window and press the load
+	  volume anatomy button.
+	- Next, load the gray matter by typing in the gray matter hemisphere and
+	  filename into the corresponding spaces in the main display window and
+	  press the load gray matter button.
+	- Enter a directory to save the data to if you are planning to make cuts
+	  or mark areas in the gray matter.
+
+
+4.  Select region to be unfolded
+	- Select 'Gray' from the 'Show' menu in the main window to display the
+	  loaded gray matter.
+	- Use the tools in the view control window to navigate through the brain
+	  and gray matter.  Determine a region in the gray matter to unfold.
+	- Select the 'Set' menu in the main window to graphically set a start
+	  point for the region to be unfolded.
+	- Enter a radius in the main window.  All points within that distance of
+	  the start point will be unfolded.
+	- Select 'Distance' from the 'Show' menu in the main window to view the
+	  area that will be unfolded (optional).  The hot colormap indicates the
+	  proximity of the voxels in the unfold area to the start point.  The
+	  regions in purple are beyond the specified radius and will not be
+	  unfolded.
+
+
+5.  Unfold
+	- Select 'Unfold' from the 'Tools' menu on the main window.  The Unfolding
+	  parameters window will appear with the parameters set to default values.
+	- Modify the unfolding parameters to the desired values and press the
+	  Unfold button when ready.  The Unfolding process will last from a few
+	  minutes (for radii < 10 mm) to several hours (for radii > 40 mm).
+
+	Unfolding Parameters:
+		Filename for parameters
+		  Filename under which to save the parameters used for the unfold.
+
+		Save directory for unfold data
+		  All outputs from the unfold will be saved in this directory.
+	     
+		Load parameters file
+		  Loads a parameters file from a previous unfold.
+
+		Voxel dimensions
+		  x, y, z dimensions of the volume anatomy voxels in millimeters.
+		  They are used to measure the distance between points on the
+		  manifold.  By default, these values are loaded in from
+		  UnfoldParams.mat, which is located in the anatomy directory.
+
+		Flattening plane
+		  Plane onto which to project the flattened gray matter.
+
+		Display Unfold Results
+		  When selected, the depth map and the distance map of the unfold
+		  will be displayed.
+
+		Save Auxiliary data
+		  When selected, auxiliary data from the unfold will be selected.
+		  This auxiliary data include error measurements that will be
+		  displayed if they have been saved.
+
+		Sub-sampling ratio
+		  The sub-sampling spacing in the x,y and z directions.
+
+		Maximum iterations
+		  The maximum number of iterations in the loop that flattens the
+		  gray matter.  The loop will also terminate if the percent
+		  change in the unfolding error is less than 0.001%.
+
+		Number of neighbors
+		  Number of neighbors used in finding the new position of each
+		  point in the set of sample points.
+
+		Flat weight
+		  The maximum bias weight in favor of the sum of the square of
+		  the perpenticular distance of the points from the "flattening"
+		  plane. You can think of this as the maximum "importance" of
+		  having the points as close as possible to the flattening plane
+		  relative to keeping the inter-distance relationships the same
+		  as the manifold distances.<BR><BR>
+
+		Penalty function
+		  Penalty function slection for weighting error for least squares
+		  minimization:
+			1:  error = |dp - dm|
+			2:  error = |dp - dm|.^2
+			3:  error = ln( 1 + |dp - dm| )
+			4:  error = 1 - (0.5).^|dp - dm|
+			5:  error = 1 - dm/dp
+			6:  error = |dp - dm| / (M + dm)
+			dp: distance between two points on the flattened representation
+			dm: distance between the same two points along the manifold
+
+		M
+		  Radius parameter for penalty function number 6.
+
+		rSeed
+		  Seed for random number generator used for the random selection the
+		  neighbors for each sample point.
+
+		- For more information about the unfolding, see Brian Wandell's notes
+		  at: http://white.stanford.edu/~brian/mri/mrUnfold.html
+
+
+6.  Example
+	There is an 'Example' subdirectory in the mrUnfold path.  It contains all the
+	files and subdirectories of a typical data set and unfold of the right
+	hemisphere.  The parameters file is
+	'/usr/local/matlab/5.0/toolbox/stanford/mri/mrUnfold/Example/right/unfold/params062698.m'
+
+
+SJC
+07.06.98

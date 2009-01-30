@@ -1,0 +1,9 @@
+****
+
+Error in ==> /usr/local/matlab5.0/toolbox/stanford/mri/mrLoadRet-2.0/ROIPlots/mrSurfROIRet.m
+On line 33  ==>  tSigma = sigma(1); sSigma = sigma(2);
+
+****
+
+??? Undefined function or variable 'mrPlotVectorMean'.
+

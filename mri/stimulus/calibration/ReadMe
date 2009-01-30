@@ -1,0 +1,13 @@
+Additional tools for building colormaps for presenting
+fMRI stimuli can be found in:
+/usr/local/matlab/toolbox/stanford/color.
+These tools include:
+buildLinearMaps.m
+checkRange.m
+maxConeContrast.m
+macMap.m
+etc.
+and often use information found in the subdirectory
+/usr/local/matlab/toolbox/stanford/color/data.
+
+-Heidi, 4/17/97
