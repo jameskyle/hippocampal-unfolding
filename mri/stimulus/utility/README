@@ -1,8 +1,0 @@
-I copied setQuantization.m here from 
-~brian/exp/mri/stimuli/utility
-because the function 
-/usr/local/matlab/toolbox/stanford/mri/stimulus/envelopes/circularWindow.m
-calls it.
-
-Heidi
-2/27/96
