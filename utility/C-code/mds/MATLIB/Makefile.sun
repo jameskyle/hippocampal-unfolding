@@ -1,8 +1,0 @@
-MODULES = matrix
-OBJS = $(MODULES:%=%.o)
-CC = gcc -c -D_NO_PROTO
-
-run: $(OBJS)	
-	ar cr libmatSPARC.a  $(OBJS)
-	ranlib libmatSPARC.a
-

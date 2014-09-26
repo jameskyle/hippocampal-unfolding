@@ -1,0 +1,1629 @@
+This is pdfTeX, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=mex 2009.6.3)  3 JUL 2009 14:04
+entering extended mode
+**mrManDist.c
+(./mrManDist.c
+This is MeX  Version 1.05  18 XII 1993  (B. Jackowski & M. Ry\'cko)
+! You can't use `macro parameter character #' in vertical mode.
+l.55 #
+      include "mex.h"
+? quit()
+OK, entering \batchmode...
+! You can't use `macro parameter character #' in vertical mode.
+l.57 #
+      include <stdio.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.58 #
+      include <sys/types.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.59 #
+      include <ctype.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.60 #
+      include <math.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.62 /* #
+         include <assert.h>*/
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.63 #
+      define assert(arg)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.66 #
+      define POINT_UNREACHED -1
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.66 #define POINT_
+                   UNREACHED -1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.67 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.69 #
+      define NUM_ATTRS	8
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.69 #define NUM_
+                 ATTRS	8
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.70 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.71 #
+      define XCOORD 		0
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.72 #
+      define YCOORD 		1
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.73 #
+      define ZCOORD 		2
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.74 #
+      define NUM_NBHRS	3
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.74 #define NUM_
+                 NBHRS	3
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.75 #
+      define	NBHRS		4
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.76 #
+      define	LAYER		5
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.77 #
+      define	DIST		6
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in math mode.
+l.78 #
+      define	PQINDEX		7
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.79 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (193.9038pt too wide) in paragraph at lines 71--79
+[]\tenrm define XCO-ORD 0 de-fine YCO-ORD 1 de-fine ZCO-ORD 2 de-fine NUM$[]\te
+ni BHRS\tenrm 3\teni defineNBHRS\tenrm 4\teni defineLAYER\tenrm 5\teni defineDI
+ST\tenrm 6\teni definePQINDEX\tenrm 7$ |
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm d
+.\tenrm e
+.\tenrm ^^L (ligature fi)
+.\tenrm n
+.etc.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.81 #
+      define XSEPARATION .9375
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.82 #
+      define YSEPARATION .9375
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.83 #
+      define ZSEPARATION .70
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.89   int	     max_
+                    size;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.92 }
+       PQueue;
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.93 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.95 #
+      define NODEN(nodeArray,n)	((nodeArray)+(n)*NUM_ATTRS)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.95 ...e NODEN(nodeArray,n)	((nodeArray)+(n)*NUM_
+                                                  ATTRS)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.96 #
+      define EDGEN(edgeArray,n)	((edgeArray)+(n)*3)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.97 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (101.74258pt too wide) in paragraph at lines 94--97
+[]\tenrm /* Func-tions. */ de-fine NO-DEN(nodeArray,n) ((nodeArray)+(n)*NUM$[]\
+teni TTRS\tenrm )\teni defineEDGEN\tenrm (\teni edgeArray; n\tenrm )((\teni edg
+eArray\tenrm ) +|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm F
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.98 extern PQueue 	  *make_
+                            pqueue(int max_size);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.103 #
+       define pqueue_empty_p(pqueue)	((pqueue)->size <= 0)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.104 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (69.567pt too wide) in paragraph at lines 98--104
+[]\tenrm extern PQu-eue *make$[]\teni queue\tenrm (\teni intmax[]ize\tenrm ); \
+teni externvoidfree[]queue\tenrm (\teni PQueue \tensy ^^C \teni pqueue\tenrm );
+ \teni externvoidpqueue[]nsert\tenrm (\teni PQueue \tensy ^^C|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm e
+.\tenrm x
+.\tenrm t
+.\tenrm e
+.etc.
+
+
+Overfull \hbox (146.67236pt too wide) in paragraph at lines 98--104
+\teni pqueue; PQueueNodenode\tenrm ); \teni externvoidpqueue[]eckey\tenrm (\ten
+i PQueue \tensy ^^C \teni pqueue; PQueueNodenode\tenrm ); \teni externPQueueNod
+epqueue[]xtract[]in\tenrm (\teni PQueue \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni p
+.\teni q
+.\kern0.35878
+.\teni u
+.\teni e
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.111 double node_
+                  dist(double *node1, double *node2, double dimdist[3])
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.114 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.114 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.133 static int shortest_
+                          path(double *nodeArray, int num_nodes, double *edg...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.139 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.139 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (28.55061pt too wide) in paragraph at lines 130--139
+\teni nodeArray; intnum[]odes; double \tensy ^^C \teni edgeArray; intnum[]dges;
+ intstart[]ndex; doubledimdist\tenrm [3]\teni ; doubleradius; double \tensy ^^C
+|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni n
+.\teni o
+.\teni d
+.\teni e
+.\teni A
+.etc.
+
+
+Overfull \hbox (236.30713pt too wide) in paragraph at lines 130--139
+\teni lastNodeList; intgeoflag\tenrm )[]$ |
+
+\hbox(7.5+2.5)x469.75499
+.\teni l
+.\kern0.19678
+.\teni a
+.\teni s
+.\teni t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.140   /* Initialize distance to HUGE_
+                                       VAL. */
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.141   for (i=0, node=&
+                        nodeArray[DIST]; i<num_nodes;
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.143 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.144 ...Allocate priority queue and insert start_
+                                                  index as first node. */
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.152 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (232.33232pt too wide) in paragraph at lines 144--152
+\teni NODEN\tenrm (\teni nodeArray; start[]ndex \tensy ^^@ \tenrm 1); \teni nod
+e\tenrm [\teni DIST\tenrm ] = 0\teni :\tenrm 0; \teni if\tenrm (\teni lastNodeL
+ist\tenrm ! = \teni NULL\tenrm )[]\teni pqueue[]nsert\tenrm (\teni PQ; \tenrm (
+\teni PQueueNode\tenrm )\teni node\tenrm );$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni N
+.\kern1.09026
+.\teni O
+.\kern0.27779
+.\teni D
+.etc.
+
+ [1]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.157   while (!pqueue_
+                       empty_p(PQ)) {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.162 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.162 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (602.9937pt too wide) in paragraph at lines 155--162
+[]\tenrm /* Dijk-stra's al-go-ri-thm. */ cnt = 0; while (!pqueue$[]\teni mpty[]
+\tenrm (\teni PQ\tenrm ))[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm D
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.164     num_
+              nbhrs = (int) node[NUM_NBHRS];
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.165 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.171       nbhrs = &
+                     edgeArray[((int)node[NBHRS])-1];
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (73.6904pt too wide) in paragraph at lines 166--173
+[]\tenrm /* Get the geo-de-sic di-stan-ces to the ne-igh-bors. */ if (geo-flag 
+== 1)  nbhrs = EDGEN(edgeArray,(((int)node[NBHRS])-1));|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm G
+.etc.
+
+
+Overfull \hbox (10.2876pt too wide) in paragraph at lines 166--173
+\tenrm nbhr-di-sts = EDGEN(edgeArray,(((int)node[NBHRS])-1)) + 1;  else  nbhrs 
+= edgeArray[((int)node[NBHRS])-1];|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm n
+.\kern-0.27779
+.\tenrm b
+.\tenrm h
+.\tenrm r
+.etc.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--173
+
+
+\hbox(0.0+0.0)x469.75499
+.\glue(\rightskip) 0.0
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.174     for (i=0; i<num_
+                          nbhrs; i++) {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.196 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.196 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.196 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (2749.81917pt too wide) in paragraph at lines 174--196
+[]\tenrm for (i=0; i<num$[]\teni bhrs\tenrm ; \teni i \tenrm + +)[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm f
+.\tenrm o
+.\tenrm r
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.197 	if (new_
+               dist<radius) {
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.222       }
+             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.223     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.224   }
+         
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.226 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2551.18927pt too wide) in paragraph at lines 197--226
+[]\tenrm if (new$[]\teni ist < radius\tenrm )[]\teni free[]queue\tenrm (\teni P
+Q\tenrm );$ |
+
+\hbox(7.51782+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\tenrm f
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm (
+.etc.
+
+! Too many }'s.
+l.228 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.238 #
+       include <malloc.h>
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in vertical mode.
+l.240 #
+       define PARENT(i)	(((i)-1) >> 1)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.241 #
+       define LEFT(i)		(((i) << 1) + 1)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.242 #
+       define RIGHT(i)	(((i)+1) << 1)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.244 PQueue *make_
+                   pqueue(int max_size)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.247 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.247 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.251      pqueue->max_
+                       size = max_size;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.253 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.254 ...QueueNode*)malloc(sizeof(PQueueNode)*max_
+                                                  size);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.256 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Too many }'s.
+l.258 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.263 void free_
+                pqueue(PQueue *pqueue)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.268 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (76.8366pt too wide) in paragraph at lines 260--268
+[]\tenrm /* * Free me-mory al-lo-ca-ted by prio-rity qu-eue. */ void free$[]\te
+ni queue\tenrm (\teni PQueue \tensy ^^C \teni pqueue\tenrm )[]$ |
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.272 void pqueue_
+                  insert(PQueue	*pqueue,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.277 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.277 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (205.58719pt too wide) in paragraph at lines 269--277
+[]\tenrm /* * In-serts new ele-ment into prio-rity qu-eue. */ void pqueue$[]\te
+ni nsert\tenrm (\teni PQueue \tensy ^^C \teni pqueue; PQueueNodenode\tenrm )[]$
+ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm *
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.278      assert(pqueue->size<pqueue->max_
+                                           size);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.279 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.281      while ((i>0) &
+                         & (node[DIST]<arr[p=PARENT(i)][DIST])) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.281      while ((i>0) &&
+                           (node[DIST]<arr[p=PARENT(i)][DIST])) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Too many }'s.
+l.288 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (14.41035pt too wide) in paragraph at lines 280--289
+[]\tenrm i = pqueue->size++; while ((i>0)  (node[DIST]<arr[p=PARENT(i)][DIST]))
+  arr[i] = arr[p]; arr[i][PQINDEX]|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm =
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.296 void pqueue_
+                  deckey(PQueue	*pqueue,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.301 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.301 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Misplaced alignment tab character &.
+l.302      assert((((int)node[PQINDEX])>=0) &
+                                             &
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.302      assert((((int)node[PQINDEX])>=0) &&
+                                              
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.306      while ((i>0) &
+                         & (node[DIST]<arr[p=PARENT(i)][DIST])) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.306      while ((i>0) &&
+                           (node[DIST]<arr[p=PARENT(i)][DIST])) {
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Too many }'s.
+l.313 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (40.04935pt too wide) in paragraph at lines 305--314
+[]\tenrm i = (int) node[PQINDEX]; while ((i>0)  (node[DIST]<arr[p=PARENT(i)][DI
+ST]))  arr[i] = arr[p]; arr[i][PQINDEX]|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm i
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm =
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.321 static void pqueue_
+                         heapify(pqueue, i)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.328 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.328 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (176.61322pt too wide) in paragraph at lines 315--328
+\tenrm sta-tic void pqueue$[]\teni eapify\tenrm (\teni pqueue; i\tenrm )\teni P
+Queue \tensy ^^C \teni pqueue\tenrm ; \teni inti\tenrm ; []$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\discretionary
+..\tenrm -
+.\tenrm t
+.etc.
+
+! Misplaced alignment tab character &.
+l.331 	  smallest = ((l<size) &
+                               & (arr[l][DIST]<arr[i][DIST])) ? l : i;
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.331 	  smallest = ((l<size) &&
+                                 (arr[l][DIST]<arr[i][DIST])) ? l : i;
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.332 	  if ((r<size) &
+                       & (arr[r][DIST]<arr[smallest][DIST]))
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.332 	  if ((r<size) &&
+                         (arr[r][DIST]<arr[smallest][DIST]))
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Too many }'s.
+l.343 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Overfull \hbox (9.16142pt too wide) in paragraph at lines 329--344
+\tenrm (arr[r][DIST]<arr[smallest][DIST])) smal-lest = r; if (smal-lest == i) b
+reak; else  tmp = arr[i]; arr[i] = arr[smallest];|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm (
+.\tenrm a
+.\tenrm r
+.\tenrm r
+.\tenrm [
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.348 PQueueNode pqueue_
+                        extract_min(PQueue *pqueue)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.351 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+<to be read again> 
+                   $
+<to be read again> 
+                   \par 
+l.351 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.356      pqueue_
+                  heapify(pqueue, 0);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.357 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Too many }'s.
+l.359 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.363 void mexFunction(int nlhs,		        /* #
+                                               arguments on lhs */
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in horizontal mode.
+l.365 		 int nrhs,		        /* #
+                                 arguments on rhs */
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.370   double dimdist[3], num_
+                               dist, radius, nuldist;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.372 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (164.09561pt too wide) in paragraph at lines 363--372
+\tenrm *ed-ge-Ar-ray, *nPo-int-sRe-ached, *tmp; do-uble dim-dist[3], num$[]\ten
+i ist; radius; nuldist\tenrm ; \teni intnum[]odes; num[]dges; size[]dges; start
+[]ndex; count; i; geoflag\tenrm ;$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm *
+.\tenrm e
+.\tenrm d
+.\discretionary
+..\tenrm -
+.\tenrm g
+.etc.
+
+! Undefined control sequence.
+l.375 ...Edges,startPt,dimDist,[noVal],[radius])\n
+                                                  ");
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (59.42651pt too wide) in paragraph at lines 380--383
+[]\tenrm /* The size of dist is equal to the size of gray-No-des */ plhs[0] = m
+xCre-ate-Do-uble-Ma-trix(1,mxGetN(prhs[0]),mxREAL);|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm T
+.etc.
+
+ [2]
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.414     num_
+              nodes = mxGetN(prhs[0]);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.416 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (47.18942pt too wide) in paragraph at lines 412--416
+[]\tenrm /* Arg 1. 'no-des' */ no-de-Ar-ray = mxGetPr(prhs[0]); num$[]\teni ode
+s \tenrm = \teni mxGetN\tenrm (\teni prhs\tenrm [0]); \teni assert\tenrm (\teni
+ mxGetM\tenrm (\teni prhs\tenrm [0]) ==|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm A
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.419     num_
+              edges = mxGetN(prhs[1]);
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.429 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (111.71437pt too wide) in paragraph at lines 417--429
+\teni mxGetM\tenrm (\teni prhs\tenrm [1]); \teni = \tensy ^^C \teni assert\tenr
+m (\teni mxGetM\tenrm (\teni prhs\tenrm [1]) == 1); \tensy ^^C\teni == \tensy ^
+^C \tenrm 08\teni :\tenrm 05\teni :\tenrm 98\teni SJCCheckthesizeoftheedgeArray
+toseeifitincludesthegeodesic \tensy ^^C|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni m
+.\teni x
+.\teni G
+.\teni e
+.\teni t
+.etc.
+
+
+Overfull \hbox (460.84196pt too wide) in paragraph at lines 417--429
+\teni lengthofeachedge: \tensy ^^C \teni =if\tenrm (\teni size[]dges \tenrm == 
+2)[]\teni else[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\teni l
+.\kern0.19678
+.\teni e
+.\teni n
+.\teni g
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.430     /* Arg 3.  'start_
+                            index' */
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.433 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.445       nuldist = POINT_
+                            UNREACHED;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.446     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.451 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (242.49161pt too wide) in paragraph at lines 443--451
+[]\tenrm /* Arg 5. Cho-ose the de-fault va-lue when po-ints are unre-ached. */ 
+if (nrhs < 5)  nul-dist = POINT$[]\teni NREACHED\tenrm ; \teni else[]$ |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm A
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.463         radius = HUGE_
+                            VAL;
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.464       }
+             
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+l.465     }
+           
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.470 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.472     count = shortest_
+                           path(nodeArray, num_nodes,
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.477 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (257.71562pt too wide) in paragraph at lines 471--477
+[]\tenrm /* Com-pute shor-test path di-stan-ces. */ co-unt = shortest$[]\teni a
+th\tenrm (\teni nodeArray; num[]odes; edgeArray; num[]dges; start[]ndex; dimdis
+t; radius; lastNodeList; geoflag\tenrm ); \teni = \tensy ^^C|
+
+\hbox(7.5+2.86108)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm C
+.etc.
+
+! Misplaced alignment tab character &.
+l.479     for (i=0, tmp=&
+                         nodeArray[DIST]; i<num_nodes; i++, tmp+=NUM_ATTRS)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.479     for (i=0, tmp=&nodeArray[DIST]; i<num_
+                                                nodes; i++, tmp+=NUM_ATTRS)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   \par 
+l.481 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (13.19681pt too wide) in paragraph at lines 478--481
+[]\tenrm /* Copy di-stan-ces to the out-put that is al-ways re-tur-ned. */ for 
+(i=0, tmp=nodeArray[DIST]; i<num$[]\teni odes\tenrm ; \teni i \tenrm +|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm /
+.\tenrm *
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.\tenrm C
+.etc.
+
+)
+! Emergency stop.
+<*> mrManDist.c
+               
+*** (job aborted, no legal \end found)
+
+Output written on mrManDist.dvi (2 pages, 14820 bytes).
